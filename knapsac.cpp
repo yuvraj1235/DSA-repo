@@ -40,7 +40,7 @@ double fractionalKnapsack(int capacity, vector<Item>& items) {
         if (currentWeight + item.weight <= capacity) {
             currentWeight += item.weight;
             totalValue += item.value;
-            cout << "Item " << item.id << ": Picked **entirely** (W: " << item.weight 
+            cout <<  ": Picked **entirely** (W: " << item.weight 
                  << ", V: " << item.value << ", Ratio: " << fixed << setprecision(2) << item.ratio 
                  << "). **Remaining Capacity:** " << capacity - currentWeight << endl;
         }

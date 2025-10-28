@@ -3,10 +3,8 @@
 #include <algorithm> // For std::sort
 #include <iomanip>   // For display
 
-// Always use namespace std as per your request
 using namespace std;
 
-// 1. Structure to represent a Job
 struct Job {
     char id;       // Job ID (e.g., 'A', 'B')
     int deadline;  // Maximum time unit by which the job must be finished
